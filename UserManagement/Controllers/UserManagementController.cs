@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using UserManagement.Core;
+using UserManagement.Core.Interfaces.Services;
 using UserManagement.Core.Models;
 using UserManagement.Core.Requests;
 using UserManagement.Core.Responses;
-using UserManagement.Core.Services.Interfaces;
 
 namespace UserManagement.Controllers;
 

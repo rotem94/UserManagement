@@ -1,17 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using UserManagement.Core.Mappers.Implementations;
-using UserManagement.Core.Mappers.Interfaces;
+using UserManagement.Core.Interfaces;
+using UserManagement.Core.Interfaces.Mappers;
+using UserManagement.Core.Interfaces.Providers;
+using UserManagement.Core.Interfaces.Repositories;
+using UserManagement.Core.Interfaces.Services;
+using UserManagement.Core.Mappers;
 using UserManagement.Core.Models;
-using UserManagement.Core.Providers.Implementations;
-using UserManagement.Core.Providers.Interfaces;
-using UserManagement.Core.Services.Implementations;
-using UserManagement.Core.Services.Interfaces;
-using UserManagement.Infrastructure.Models;
-using UserManagement.Infrastructure.Repositories.Implementations;
-using UserManagement.Infrastructure.Repositories.Interfaces;
-using UserManagement.Infrastructure.UnitOfWork.Implementations;
-using UserManagement.Infrastructure.UnitOfWork.Interfaces;
+using UserManagement.Core.Providers;
+using UserManagement.Core.Services;
+using UserManagement.Infrastructure.Context;
+using UserManagement.Infrastructure.Repositories;
+using UserManagement.Infrastructure.UnitOfWork;
 
 namespace UserManagement
 {
