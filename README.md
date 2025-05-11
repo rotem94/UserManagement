@@ -151,9 +151,3 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 ```
 
 ---
-## 📄 License
-
-This project is proprietary and all rights are reserved.  
-You are free to view the code, but copying or redistributing it is prohibited without permission.
-
----
