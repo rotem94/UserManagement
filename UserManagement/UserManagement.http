@@ -1,0 +1,23 @@
+@UserManagement_HostAddress = http://localhost:5065
+
+### Get weather forecast (default template)
+GET {{UserManagement_HostAddress}}/weatherforecast
+Accept: application/json
+
+###
+
+### Register a new user
+POST {{UserManagement_HostAddress}}/api/v1/users/register
+Content-Type: application/json
+
+{
+  "username": "johndoe",
+  "password": "YourSecurePassword123"
+}
+
+###
+
+### Delete user (requires token)
+# Replace `{{token}}` with a real JWT
+DELETE {{UserManagement_HostAddress}}/api/v1/users/johndoe
+Authorization: Bearer {{token}}
